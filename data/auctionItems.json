@@ -13,19 +13,19 @@
   },
   {
     "title": "Gigabyte 3080 Ti",
-    "description": "The beginning of a difficult period for PC hardware pricing. Mining demand and the COVID supply shortages pushed GPU prices to new heights. Third-generation RTX, and a sign of things to come now that companies realised they can charge heaps and people would still pay",
+    "description": "The beginning of a difficult period for PC hardware pricing. Mining demand and the COVID supply shortages pushed GPU prices to new heights.",
     "start_price": 600,
     "reserve_price": 800
   },
   {
     "title": "PNY 4080 Ti",
-    "description": "The fourth generation of RTX. Prices showed little sign of returning to normal, despite hopes that the market would eventually settle. A less common name among the high-end GPU manufacturers.",
+    "description": "The fourth generation of RTX. Prices showed little sign of returning to normal, despite hopes that the market would eventually settle.",
     "start_price": 1400,
     "reserve_price": 1500
   },
   {
     "title": "ASUS 5080 ProArt",
-    "description": "The current reality of high-end graphics cards. Premium pricing has become the norm, with frame generation and AI features increasingly part of the performance story. The ProArt edition atleast makes it look pertty",
+    "description": "The new reality of graphics cards. High pricing has become the norm with fake frames increasingly part of the story. The ProArt edition atleast makes it look pertty",
     "start_price": 2500,
     "reserve_price": 2700
   },
