@@ -14,7 +14,7 @@ const auctionItemSchema = new mongoose.Schema({
 });
 
 // Turn schema (form template) to database information
-const AuctionItem = mongoose.model("AuctionItem", auctionItemSchema);
+const Dictator = mongoose.model("AuctionItem", auctionItemSchema);
 
 // Export so it can be used by other files.
-module.exports = AuctionItem;
+module.exports = Dictator;

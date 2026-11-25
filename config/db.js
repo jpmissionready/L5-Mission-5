@@ -14,7 +14,7 @@ const MONGO_URL = "mongodb://127.0.0.1:27017/trademe";
 async function connectDB() 
 {
 	await mongoose.connect(MONGO_URL);
-	console.log(chalk.green("Connected to MongoDB (trademe database)"));
+	console.log(chalk.blue("Connected to MongoDB (trademe database)"));
 }
 
 // disconnectDB closes connection to MongoDB
