@@ -1,0 +1,26 @@
+{
+  "name": "l5-mission-5",
+  "version": "1.0.0",
+  "description": "Level 5, Mission 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmissionready/L5-Mission-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jpmissionready/L5-Mission-5/issues"
+  },
+  "homepage": "https://github.com/jpmissionready/L5-Mission-5#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^15.1.0",
+    "mongoose": "^9.13.1"
+  }
+}
