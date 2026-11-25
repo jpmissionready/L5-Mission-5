@@ -9,7 +9,7 @@ const chalk = require("chalk");
 const MONGO_URL = "mongodb://127.0.0.1:27017/trademe";
 
 // connectDB opens connection to MongoDB
-// async = wait until its done before moving on
+// async = as it will take time, we then tell it to wait (await) where as sync would do it without waiting for mongoDB connection
 // console.log("message") turns to console.log(chalk.color("message")); with Chalk
 async function connectDB() 
 {

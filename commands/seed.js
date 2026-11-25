@@ -1,4 +1,4 @@
-// Commands List
+// Seed Command (admin seed)
 
 // Load chalk for colored terminal text
 const chalk = require("chalk");
@@ -6,9 +6,9 @@ const chalk = require("chalk");
 // Load connect/disconnect helper
 const { connectDB, disconnectDB } = require("../config/db");
 
-// Load dictator 
+// Load Dictator 
 const Dictator = require("../models/Dictator");
-// Load blueprint
+// Load seedData that we are sending to MongoDB
 const seedData = require("../data/seedData.json");
 
 // Seed function (admin seed)
@@ -21,7 +21,7 @@ async function seed ()
 		await connectDB();
 		// CLG = Connected
 		console.log(chalk.blue('Connected to MongoDB'));
-		// keep a list of items saved = Dictator.saveMany items(list of items)
+		// Keep a list of the many items saved.
 		const addedItems = await Dictator.insertMany(seedData);
 		// CLG = Success
 		console.log(chalk.green(`Seeded ${addedItems.length} auction items into database.`));

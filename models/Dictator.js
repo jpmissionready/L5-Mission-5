@@ -1,10 +1,9 @@
-// Model = Dictator
-// Model is basically a blueprint to tell Mongoose what the formatting is for an item in the DB.
+// Model (Dictator or Manager) is what uses Schema (Blueprint) to save / delete / find items in the auctionitems collection.
 
 // Load Mongoose
 const mongoose = require("mongoose");
 
-// Schema = form template (what goes into what)
+// Schema = blueprint / form template (what goes into what)
 // Schema = list every field an item has and the type of data in said field
 const auctionItemSchema = new mongoose.Schema({
 	title: String,
@@ -13,7 +12,7 @@ const auctionItemSchema = new mongoose.Schema({
 	reserve_price: Number,
 });
 
-// Turn schema (form template) to database information
+// mongoose.model create Dictator | Dictator given Schema (blueprint)
 const Dictator = mongoose.model("AuctionItem", auctionItemSchema);
 
 // Export so it can be used by other files.
