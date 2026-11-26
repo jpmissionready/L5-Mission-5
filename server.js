@@ -26,7 +26,7 @@ app.get("/api/search", async (req, res) =>
     // If no keyword is given
     if (!keyword)
     {
-        return res.status(400).json({ message: "No keywords. Enter keyword (/api/search?keyword=KEYWORDHERE"})
+        return res.status(400).json({ message: "No keywords. Enter keyword (/api/search?keyword=KEYWORDHERE)" })
     }
 
     // Use dictator.find to find every item that matches the filters inside  { }
@@ -42,6 +42,12 @@ app.get("/api/search", async (req, res) =>
             ]
         }
     )
+
+    // If nothing is found (items found = 0)
+    if (items.length ===0)
+    {
+        return res.status(404).json({ message: "No items match your search" });
+    }
     res.json(items);
 });
 
