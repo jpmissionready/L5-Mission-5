@@ -7,6 +7,7 @@ const { program } = require("commander");
 
 // Load the seed function
 const seed = require("./commands/seed");
+const deleteSeed = require("./commands/delete");
 
 // admin --help will list all of the commands below incl. their descriptions.
 program 
@@ -19,6 +20,12 @@ program
 .command("seed")
 .description("Add the auction items from seedData.json to MongoDB")
 .action(seed);
+
+// admin delete
+program
+.command("delete")
+.description("Delete all auction items from MongoDB")
+.action(deleteSeed);
 
 // Run the command that was typed in the terminal
 program.parse();
