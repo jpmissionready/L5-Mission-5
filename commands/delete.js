@@ -2,7 +2,7 @@
         // Checkpoint -- delete works even if error says undefined.
                 // Checkpoint -- delete works even if error says undefined.
                 // fix later
-                
+
 // Load chalk for colored terminal text
 const chalk = require("chalk");
 
@@ -26,7 +26,7 @@ async function deleteSeed ()
 		const deleteCount = await Dictator.deleteMany({});
 		// CLG = Success
 
-		console.log(chalk.green(`Deleted ${result.deleteCount} auction items from database.`));
+		console.log(chalk.green(`Deleted ${deleteCount.deletedCount} auction items from database.`));
 	}
 	// If try fails, run
 	catch (error)
