@@ -22,6 +22,13 @@ app.get("/api/search", async (req, res) =>
 {
     // Everything after ? on URL is keyword.
     const keyword = req.query.keyword;
+
+    // If no keyword is given
+    if (!keyword)
+    {
+        return res.status(400).json({ message: "No keywords. Enter keyword (/api/search?keyword=KEYWORDHERE"})
+    }
+
     // Use dictator.find to find every item that matches the filters inside  { }
     const items = await Dictator.find (
         {
