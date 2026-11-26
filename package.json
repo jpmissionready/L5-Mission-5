@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Level 5, Mission 5",
   "main": "index.js",
+  "bin": { "admin": "./index.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
