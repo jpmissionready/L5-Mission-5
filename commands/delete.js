@@ -9,7 +9,7 @@ const { connectDB, disconnectDB } = require("../config/db");
 // Load Dictator 
 const Dictator = require("../models/Dictator");
 
-// Seed function (admin seed)
+// Delete function (admin delete)
 async function deleteSeed () 
 { 
 	// Try below code. If fails, go catch
@@ -20,9 +20,9 @@ async function deleteSeed ()
 		// CLG = Connected
 		console.log(chalk.blue('Connected to MongoDB'));
 		// Keep a list of the many items saved.
-		const addedItems = await Dictator.deleteMany(seedData);
+		const deleteCount = await Dictator.deleteMany({});
 		// CLG = Success
-		console.log(chalk.green(`Deleted ${addedItems.length} auction items from database.`));
+		console.log(chalk.green(`Deleted ${result.deleteCount} auction items from database.`));
 	}
 	// If try fails, run
 	catch (error)
@@ -40,4 +40,4 @@ async function deleteSeed ()
 	}
 }
 
-module.exports = delete;
+module.exports = deleteSeed;
