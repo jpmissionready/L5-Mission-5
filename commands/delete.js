@@ -20,8 +20,6 @@ async function deleteSeed ()
 	{
 		// Connect to MongoDB. Wait for connection before next line
 		await connectDB();
-		// CLG = Connected
-		console.log(chalk.blue('Connected to MongoDB'));
 		// Keep a list of the many items saved.
 		const deleteCount = await Dictator.deleteMany({});
 		// CLG = Success
@@ -39,8 +37,6 @@ async function deleteSeed ()
 	{
 		// Disconnect from MongoDB
 		await disconnectDB();
-		// CLG = Disconnected
-		console.log(chalk.grey(`Disconnected from MongoDB`));
 	}
 }
 

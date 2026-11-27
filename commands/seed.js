@@ -23,8 +23,6 @@ async function seed ()
 		console.log(chalk.blue('Connected to MongoDB'));
 		// Keep a list of the many items saved.
 		const addedItems = await Dictator.insertMany(seedData);
-		// CLG = Success
-		console.log(chalk.green(`Seeded ${addedItems.length} auction items into database.`));
 	}
 	// If try fails, run
 	catch (error)
@@ -37,8 +35,6 @@ async function seed ()
 	{
 		// Disconnect from MongoDB
 		await disconnectDB();
-		// CLG = Disconnected
-		console.log(chalk.grey(`Disconnected from MongoDB`));
 	}
 }
 
