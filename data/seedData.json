@@ -1,3 +1,4 @@
+
 [
   {
     "title": "EVGA 1080 Ti",
@@ -25,7 +26,7 @@
   },
   {
     "title": "ASUS 5080 ProArt",
-    "description": "The new reality of graphics cards. High pricing has become the norm with fake frames increasingly part of the story. The ProArt edition atleast makes it look pertty",
+    "description": "The new reality of graphics cards. High pricing has become the norm with fake frames increasingly part of the story. The ProArt edition at least makes it look pretty.",
     "start_price": 2500,
     "reserve_price": 2700
   },
@@ -34,5 +35,125 @@
     "description": "NVIDIA flagship consumer graphics card. The top of the RTX 50 Series, with a price tag to match. Expensive, difficult to find, and firmly in a league of its own.",
     "start_price": 10000,
     "reserve_price": 15000
+  },
+  {
+    "title": "NVIDIA RTX 4090",
+    "description": "The previous generation flagship. An absolute powerhouse that made 4K gaming and high-end rendering look easy. Only slightly less ridiculous than the 5090.",
+    "start_price": 5000,
+    "reserve_price": 6500
+  },
+  {
+    "title": "ASUS RTX 5070 Ti",
+    "description": "A strong upper-midrange contender from the RTX 50 Series. Modern rendering features, impressive performance and another generation of increasingly expensive graphics cards.",
+    "start_price": 1800,
+    "reserve_price": 2200
+  },
+  {
+    "title": "MSI RTX 5070",
+    "description": "The mainstream entry into the RTX 50 Series. A capable card for modern gaming, bringing the latest NVIDIA features to a wider audience.",
+    "start_price": 1200,
+    "reserve_price": 1500
+  },
+  {
+    "title": "Gigabyte RTX 5060 Ti",
+    "description": "The more affordable RTX 50 Series option. Designed for mainstream gaming, with modern features and a considerably less intimidating price tag.",
+    "start_price": 700,
+    "reserve_price": 900
+  },
+  {
+    "title": "Sapphire RX 9070 XT",
+    "description": "AMD's RDNA 4 generation makes a serious attempt at the high-performance market. A competitive gaming GPU with plenty of horsepower.",
+    "start_price": 1500,
+    "reserve_price": 1800
+  },
+  {
+    "title": "PowerColor RX 7900 XTX",
+    "description": "AMD's previous flagship. A monster of a graphics card with 24GB of VRAM and enough raw performance to challenge the best.",
+    "start_price": 2000,
+    "reserve_price": 2500
+  },
+  {
+    "title": "AMD Ryzen 7 7800X3D",
+    "description": "One of the most celebrated gaming processors ever made. Its 3D V-Cache technology made it a favourite among PC gaming enthusiasts.",
+    "start_price": 800,
+    "reserve_price": 1000
+  },
+  {
+    "title": "AMD Ryzen 7 9800X3D",
+    "description": "The next generation of gaming performance. AMD's Zen 5 architecture combined with 3D V-Cache to deliver an impressive gaming processor.",
+    "start_price": 1200,
+    "reserve_price": 1500
+  },
+  {
+    "title": "AMD Ryzen 9 9950X3D",
+    "description": "A flagship desktop processor combining 16 cores with 3D V-Cache. Built for people who want serious gaming and productivity performance.",
+    "start_price": 1800,
+    "reserve_price": 2200
+  },
+  {
+    "title": "AMD Ryzen 5 7600X",
+    "description": "The affordable AM5 entry point. A popular six-core processor offering excellent value for gaming and everyday computing.",
+    "start_price": 350,
+    "reserve_price": 450
+  },
+  {
+    "title": "Intel Core i9-14900K",
+    "description": "Intel's 14th generation flagship. 24 cores, extremely high clock speeds and enough heat output to double as a room heater.",
+    "start_price": 1000,
+    "reserve_price": 1300
+  },
+  {
+    "title": "Intel Core i7-14700K",
+    "description": "A popular high-performance processor with 20 cores. A strong option for gaming, streaming and demanding workloads.",
+    "start_price": 700,
+    "reserve_price": 900
+  },
+  {
+    "title": "Intel Core Ultra 9 285K",
+    "description": "Intel's Arrow Lake flagship desktop processor. A new architecture and a fresh attempt to redefine high-end desktop performance.",
+    "start_price": 1200,
+    "reserve_price": 1500
+  },
+  {
+    "title": "Corsair Vengeance DDR5 32GB",
+    "description": "A staple of modern PC builds. 32GB of DDR5 memory, offering a solid balance of capacity, speed and reliability.",
+    "start_price": 200,
+    "reserve_price": 300
+  },
+  {
+    "title": "G.Skill Trident Z5 Neo DDR5 64GB",
+    "description": "Premium AMD EXPO memory designed for high-performance Ryzen systems. 64GB for those who refuse to close their browser tabs.",
+    "start_price": 450,
+    "reserve_price": 600
+  },
+  {
+    "title": "Kingston Fury Beast DDR5 32GB",
+    "description": "A popular memory kit with a clean design and reliable performance. A straightforward upgrade for modern DDR5 systems.",
+    "start_price": 180,
+    "reserve_price": 250
+  },
+  {
+    "title": "Corsair Dominator Titanium DDR5 64GB",
+    "description": "Premium enthusiast memory. High-end DDR5 performance wrapped in Corsair's flagship Dominator design. Because apparently RAM needs luxury branding too.",
+    "start_price": 600,
+    "reserve_price": 800
+  },
+  {
+    "title": "Crucial Pro DDR5 32GB",
+    "description": "A practical DDR5 memory kit from a well-known memory manufacturer. No unnecessary extravagance, just dependable desktop memory.",
+    "start_price": 150,
+    "reserve_price": 220
+  },
+  {
+    "title": "G.Skill Ripjaws S5 DDR5 32GB",
+    "description": "Low-profile DDR5 memory designed for performance-focused builds. A popular choice for enthusiasts who want capable memory without excessive RGB.",
+    "start_price": 180,
+    "reserve_price": 260
+  },
+  {
+    "title": "G.Skill Trident Z5 RGB DDR5 32GB",
+    "description": "Performance memory with a premium RGB finish. Because even your RAM deserves to look impressive through the glass side panel.",
+    "start_price": 250,
+    "reserve_price": 350
   }
 ]
