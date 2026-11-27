@@ -65,7 +65,7 @@ Searches the title and description. Case-nonsensitive
 
  Search | Result
 
-http://localhost:3000/api/search?keyword=asus | 200, returns one ASUS item from the seedData
+http://localhost:3000/api/search?keyword=asus | 200, returns two ASUS items from the seedData
 
 http://localhost:3000/api/search?keyword=EVGA | 200, returns two EVGA items from the seedData
 
