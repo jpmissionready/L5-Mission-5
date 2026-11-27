@@ -26,9 +26,11 @@ Each auction item has 4 fields: title, description, start_price, reserve_price.
 2. Go into the project folder:
    cd L5-Mission-5
 3. Install the packages:
-   open VSC terminal and type npm install
-4. Link the CLI so the admin commands work in any terminal:
-   open VSC terminal and type npm link
+   open VSC terminal and type 
+   `npm install`
+4. Link the CLI so the admin commands work in any terminal: 
+   open VSC terminal and type 
+   `npm link`
    
 ---
 
